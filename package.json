@@ -13,5 +13,9 @@
     "linerstream": "^0.1.4",
     "octonode": "^0.6.11",
     "optimist": "^0.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nandinga/hawkins-worker.git"
   }
 }
