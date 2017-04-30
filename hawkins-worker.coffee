@@ -81,7 +81,7 @@ new Worker pushes, (push, processNext) ->
       github.repo(push.repository.full_name).status build.push.head_commit.id,
         state: status,
         target_url: "#{argv.base}/builds/#{buildKey}",
-        context: "Hawkins"
+        context: "ci/hawkins"
       , ->
         console.log("Updated github status")
 
